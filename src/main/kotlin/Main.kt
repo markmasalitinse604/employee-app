@@ -10,6 +10,9 @@ val bonusPercentage = 4.5
 val taxRate = 23.5
 val pensionPercentage = 6.7
 
+// Rounding to two decimal places using String.format - %.2f
+// kotlinlang.org/api/core/kotlin-stdlib/kotlin.text/format.html
+
 fun printPayslip(){
     val normalPay = hoursWorked * hourlyRate
     val overtimePay = overtimeHoursWorked * hourlyRate * 1.5
